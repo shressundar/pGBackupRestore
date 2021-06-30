@@ -6,13 +6,17 @@ using System.Threading.Tasks;
 
 namespace libsyssoln
 {
-    internal interface IPostgreSQL
+    interface IPostgreSQL
     {
         string pgUser { get; set; }
         string pgPassword { get; set; }
         string pgDatabase { get; set; }
         int pgPort { get; set; }
         string ConString { get; }
+
+    }
+    interface IBackupRestoreOption
+    {
 
     }
 }
