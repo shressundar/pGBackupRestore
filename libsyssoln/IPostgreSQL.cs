@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace libsyssoln
 {
-    internal interface IPostgreSQL
+    interface IPostgreSQL
     {
         string pgUser { get; set; }
         string pgPassword { get; set; }
@@ -15,4 +15,5 @@ namespace libsyssoln
         string ConString { get; }
 
     }
+
 }

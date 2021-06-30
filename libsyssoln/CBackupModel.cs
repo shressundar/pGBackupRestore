@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Npgsql;
+using NpgsqlTypes;
 
 namespace libsyssoln
 {
@@ -22,19 +25,17 @@ namespace libsyssoln
         public string ConString { get => _pgSQLConstr; private set => _pgSQLConstr = value; }
         public  string RoleName { get; set; }
         public  int CompressionRation { get; set; }
-        public override List<Dictionary<string, bool>> BackupRestoreOptions()
-        {
-            List<Dictionary<string, bool>> option = new();
-
-            option.Add()
-
-
-            return option;
-        }
 
         public override bool createConnection()
         {
-            throw new NotImplementedException();
+           using { 
+                NpgsqlConnection pgCon = new ();
+                pgCon.ConnectionString = "";
+                pgCon.Open();
+            
+            }
+
+            return true;
         }
 
         public override List<string> Getdatabases(string constr)
