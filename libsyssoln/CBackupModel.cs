@@ -8,6 +8,7 @@ namespace libsyssoln
 {
     public class CBackupModel : CBackupRestoreBase, IPostgreSQL
     {
+        
         private string _pgSQLUser = string.Empty;
         private string _pgSQLPwd = string.Empty;
         private string _pgSQLDbname = string.Empty;
@@ -24,6 +25,7 @@ namespace libsyssoln
         {
             List<Dictionary<string, bool>> option = new();
 
+            option.Add()
 
 
             return option;

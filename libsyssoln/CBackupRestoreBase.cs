@@ -13,5 +13,20 @@ namespace libsyssoln
     public abstract List<string> Getdatabases();
     public abstract List<Dictionary<string,bool>> BackupRestoreOptions();
     
+    public  struct BackupRestoreDataType
+        {
+            public bool PreData { get; }
+            public bool DataOnly { get; }
+            public bool PostData { get; }
+
+
+        }
+
+        public struct BackupRestorePriviledges
+        {
+            public bool PostData { get; }
+
+        }
+
     }
 }
