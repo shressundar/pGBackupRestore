@@ -20,7 +20,8 @@ namespace libsyssoln
         public int pgPort { get => _pgSQLPort; set => _pgSQLPort=value; }
 
         public string ConString { get => _pgSQLConstr; private set => _pgSQLConstr = value; }
-
+        public  string RoleName { get; set; }
+        public  int CompressionRation { get; set; }
         public override List<Dictionary<string, bool>> BackupRestoreOptions()
         {
             List<Dictionary<string, bool>> option = new();
