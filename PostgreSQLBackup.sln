@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostgreSQLBackup", "PostgreSQLBackup\PostgreSQLBackup.csproj", "{AE3B6693-394D-48D1-BDEA-AD3ECDBB5270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libsyssoln", "libsyssoln\libsyssoln.csproj", "{809A312C-E505-4C59-B8EB-E7E06B59A1D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE3B6693-394D-48D1-BDEA-AD3ECDBB5270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE3B6693-394D-48D1-BDEA-AD3ECDBB5270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE3B6693-394D-48D1-BDEA-AD3ECDBB5270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE3B6693-394D-48D1-BDEA-AD3ECDBB5270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809A312C-E505-4C59-B8EB-E7E06B59A1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809A312C-E505-4C59-B8EB-E7E06B59A1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809A312C-E505-4C59-B8EB-E7E06B59A1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809A312C-E505-4C59-B8EB-E7E06B59A1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEDCD2D1-275A-484C-AB35-3DE55AF3AC17}
+	EndGlobalSection
+EndGlobal
