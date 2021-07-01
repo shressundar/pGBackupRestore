@@ -20,12 +20,21 @@ namespace libsyssoln
         public int pgPort { get => _pgSQLPort; set => _pgSQLPort=value; }
 
         public string ConString { get => _pgSQLConstr; private set => _pgSQLConstr = value; }
+<<<<<<< Updated upstream
+=======
+        public  string RoleName { get; set; }
+        public  int CompressionRation { get; set; }
+        public override string Filename { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override string Format { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override string Encoding { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override int NoofJobs { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+>>>>>>> Stashed changes
 
         public override List<Dictionary<string, bool>> BackupRestoreOptions()
         {
             List<Dictionary<string, bool>> option = new();
-
-            option.Add()
+            Dictionary<string, bool> optionkeyv = new();
+            option.Add(optionkeyv);
 
 
             return option;
