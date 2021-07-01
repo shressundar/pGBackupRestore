@@ -28,16 +28,16 @@ namespace libsyssoln
 
         public override bool createConnection()
         {
-           using { 
-                NpgsqlConnection pgCon = new ();
-                pgCon.ConnectionString = "";
-                pgCon.Open();
-            
-            }
+
 
             return true;
         }
+        public  bool createConnection(string constring)
+        {
 
+
+            return true;
+        }
         public override List<string> Getdatabases(string constr)
         {
             throw new NotImplementedException();
