@@ -15,12 +15,4 @@ namespace libsyssoln
         string ConString { get; }
 
     }
-<<<<<<< HEAD
-
-=======
-    interface IBackupRestoreOption
-    {
-
-    }
->>>>>>> 0af3a86cd0d4de32496510c3f6ab89fbe8740f01
 }
